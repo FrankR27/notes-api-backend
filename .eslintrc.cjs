@@ -2,16 +2,16 @@ module.exports = {
   env: {
     browser: true,
     es2021: true,
-    node: true,
+    node: true
   },
   extends: [
-    'airbnb-base',
+    'standard'
   ],
   parserOptions: {
     ecmaVersion: 'latest',
-    sourceType: 'module',
+    sourceType: 'module'
   },
   rules: {
-    'no-console': 'off',
-  },
-};
+    'no-console': 'off'
+  }
+}
