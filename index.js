@@ -14,6 +14,7 @@ const errorHandler = require('./middleware/errorHandler')
 
 app.use(cors())
 app.use(express.json())
+app.use(express.static('build'))
 app.use(requestLogger)
 
 Sentry.init({
